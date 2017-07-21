@@ -1,0 +1,219 @@
+/* I. Main formatting 
+Includes:
+- Body, wrapper, footer
+- Text, link styles */
+
+body {
+	background-color: #FFF9CB;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #191919;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-family: Quicksand, Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	padding-top: 0px;
+	font-family: Roboto Slab, Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0 15px 0;
+	background-color: #FFFFFF;
+}
+
+#main {
+	margin: 0;
+	margin-top: 20px;
+	padding: 40px 30px 0px 30px;
+	min-height: 500px;
+}
+
+#main a {
+	text-decoration: none;
+	color: #CC8EDB;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	}
+	
+h4 {
+	margin: 0px;
+	font-weight: 500;
+	font-size: medium;
+}
+
+.blockquote {
+	padding-left: 40px;
+}
+/* Header formatting 
+Includes:
+- Title
+- Navigation bar */
+
+#labtitle {
+	background-color: #696969;
+	margin: 0px;
+	padding: 50px;
+	min-height: 125px;
+}
+
+#titlegraphic {
+	width: 400px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#lablogo{
+	float: left;
+	margin-right: 10px;
+}
+#labname {
+	width: 600px;
+	padding-top:30px;
+}
+#mainnav, #mainnav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-right-width: medium;
+	font-size: 14pt;
+}
+
+#mainnav a {
+	padding: 10px 0px;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#mainnav li {
+	float: left;
+	width: 196px;
+}
+
+#mainnav li ul {
+	position: absolute;
+	width: 200px;
+	left: -999em;
+	font-size: 12pt;
+}
+
+
+#mainnav li:hover ul {
+	left: auto;
+}
+
+#mainnav #home ul li{
+	background-color: #90E0FD;
+}
+
+#mainnav #people ul li{
+	background-color: #FCA9A9;
+}
+
+#mainnav #publications ul li{
+	background-color: #F0CFAB;
+}
+
+#mainnav #contact ul li{
+	background-color: #FAD382;
+}
+
+#mainnav #news ul li{
+	background-color: #BBE77E;
+}
+#home, #people, #publications, #contact {
+	margin-right: 5px;
+}
+#home {
+	background-color: #71D0F2;
+}
+#people {
+	background-color: #FB9595;
+}
+#publications {
+	background-color: #E7C299;
+}
+#contact {
+	background-color: #FCC34A;
+}
+#news {
+	background-color: #ACDA6B;
+}
+
+/* Body elements */
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.labmember {
+	width: 100%;
+	min-height: 225px;
+}
+
+.memberphoto {
+	float: left;
+	margin-right: 30px;
+}
+
+.labphoto {
+	float: right;
+	margin-left: 30px;
+}
+
+
+.pub {
+	padding-left: 2em;
+	text-indent: -2em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+}
+
+#map {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#gillooly {
+	width: 758px;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: right;
+	font-size: small;
+}
+
+img {
+    image-orientation: from-image;
+}
